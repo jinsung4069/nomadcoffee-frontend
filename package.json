@@ -16,5 +16,12 @@
     "url": "https://github.com/jinsung4069/nomadcoffee-backend/issues"
   },
   "homepage": "https://github.com/jinsung4069/nomadcoffee-backend#readme",
-  "main": "index.js"
+  "main": "index.js",
+  "dependencies": {
+    "apollo-server": "^3.1.1",
+    "graphql": "^15.5.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
 }
