@@ -17,10 +17,11 @@ model User {
   username  String  @unique
   email     String  @unique
   password  String
+  bio       String?
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
-  name String
-  location String
-  avatarURL String @unique
-  githubUsername String @unique
+  name      String?
+  location  String? 
+  avatarURL String?
+  githubUsername String?
 }
