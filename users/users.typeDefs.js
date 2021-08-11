@@ -2,7 +2,7 @@ import { gql } from "apollo-server";
 
 export default gql`
   type User {
-    id: String!
+    id: Int!
     lastName: String
     username: String!
     email: String!
